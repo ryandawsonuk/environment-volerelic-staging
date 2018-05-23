@@ -25,3 +25,6 @@ dependencies:
 - name: ttc-rb-english-campaign
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.17
+- name: ttc-connectors-dummytwitter
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.11
