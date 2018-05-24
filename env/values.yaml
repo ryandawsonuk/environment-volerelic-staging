@@ -28,3 +28,12 @@ rabbitmq:
     password: "guest"
 postgresql:
    postgresPassword: activiti
+keycloak:
+  image:
+    repository: activiti/activiti-cloud-sso-idm
+    tag: latest
+  username: admin
+  password: admin
+  persistence:
+    deployPostgres: false
+  dbVendor: H2
